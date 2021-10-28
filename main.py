@@ -37,3 +37,15 @@ def absolute_value(x, y):
         return -1
 
 print(absolute_value(0, 1))
+
+# task 5
+
+def test_is_valid(test):
+    if(isinstance(test, int)==True) and (1 <= test <=3):
+        return True
+    else:
+        return False
+
+print(test_is_valid("3"))
+print(test_is_valid(2))
+print(test_is_valid(1))
